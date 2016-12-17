@@ -1,0 +1,5 @@
+安装unity-tweak-tool,在里面设置字体缩放为1.15
+
+firefox安装default zoom插件，默认缩放设置为135
+
+

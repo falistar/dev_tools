@@ -1,0 +1,36 @@
+.doc of vim self
+
+.plugins installed in vim
+
+.YouCompleteMe
+    https://github.com/Valloric/YouCompleteMe#full-installation-guide
+    安装稍微有点点复杂, 具体使用有待探索
+    for C/C++, Android/Java, iOS/ObjC,Swift
+        http://eclim.org/install.html
+        http://eclim.org/gettingstarted.html
+
+.easymotion
+    很不错的工具，页面内跳转很方便
+
+.org-mode   => emacs org-mode
+    没有emacs的强大，而且需要加入编译选项+pyhton重新编译vim,编译了本地的gvim，
+    但是发现vim下的orgmode实现的功能太少
+
+.yankring
+    自带文档看不懂，看的好累
+
+.vim-colors-solarized
+    终端设置透明，GUI设置为不透明
+
+.ctrpl
+    快捷键设置折腾了半天，默认的C-p改为C-m, A-]映射MRU, A-[映射files,A-'映射Buffer
+
+.bash in vim
+    conque term
+    vimshell
+    感觉都没有系统自带的shell好用，不过临时用一下，要求别太高了。
+
+.status bar
+    powerline or airline
+
+.screen command

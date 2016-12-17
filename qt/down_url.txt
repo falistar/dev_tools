@@ -1,0 +1,11 @@
+qt official site: https://www.qt.io/
+
+#online install package
+axel https://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run
+
+#full package
+goto: https://www.qt.io/download-open-source/#section-2
+axel https://download.qt.io/official_releases/qt/5.7/5.7.1/qt-opensource-linux-x64-5.7.1.run
+
+#qt for android
+axel https://download.qt.io/official_releases/qt/5.7/5.7.1/qt-opensource-linux-x64-android-5.7.1.run

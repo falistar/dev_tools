@@ -1,0 +1,21 @@
+
+.在命令行运行sh,可以进入bash模式，结合的很好，很方便
+如果在shell执行中ｓｔｄ输出太多，vim的编辑窗口会被覆盖，退出ｂａｓｈ后，窗口恢复
+
+.文件管理，NERDTree很牛
+
+.project管理，project插件很强
+
+.代码分析，tagbar + ctags, cscope不错
+
+.ctrlp查找文件并快速打开真的很方便
+
+.build gvim on ubuntu
+    download codes:
+        remove comment for deb src xxx in apt source config file
+        run apt source vim after update apt source
+    set the build env for vim on ubuntu:
+        sudo apt build-dep vim
+
+.
+

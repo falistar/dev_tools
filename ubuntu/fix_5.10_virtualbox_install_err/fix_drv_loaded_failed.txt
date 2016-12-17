@@ -1,0 +1,67 @@
+启动VIRTUALBOX
+
+WARNING: The character device /dev/vboxdrv does not exist.
+
+Please install the virtualbox-ose-modules package for your kernel.
+
+You will not be able to start VMs until this problem is fixed.
+
+xiaoxu@xiaoxu:~$ /etc/init.d/vboxdrv start
+
+open: Permission denied
+
+* Starting VirtualBox kernel module vboxdrv FATAL: Module vboxdrv not found.
+
+* Modprobe vboxdrv failed. Please use 'dmesg' to find out why.
+
+virtualbox 弹出
+
+VirtualBox kernel driver not installed. The vboxdrv kernel module was either not loaded or /dev/vboxdrv was not created for some reason. Please install the virtualbox-ose-modules package for your kernel and execute '/etc/init.d/vboxdrv start' as root.
+
+VBox status code: -1908 (VERR_VM_DRIVER_NOT_INSTALLED).
+
+Result Code:
+
+0x80004005
+
+Component:
+
+Console
+
+Interface:
+
+IConsole {1dea5c4b-0753-4193-b909-22330f64ec45}
+
+在网上搜了一下都是说
+
+/etc/init.d/vboxdrv setup 或者 start
+
+不过我按照网上的方法都不能成功
+
+到后来我是这样解决的
+
+sudo apt-get install virtualbox-ose-source
+
+安装模块源码然后
+
+cd /usr/src
+
+解压源码
+
+sudo tar xjvf virtualbox*.bz2
+
+cd modules/virtualbox-ose
+
+sudo ./build_in_tmp install
+
+让他编译安装模块驱动
+
+完成后
+
+xiaoxu@xiaoxu:/usr/src/modules/virtualbox-ose$ sudo /etc/init.d/vboxdrv start
+
+* Starting VirtualBox kernel module vboxdrv [ OK ]
+
+就可以看到加载成功了
+
+启动virtualbox也没有问题了。 

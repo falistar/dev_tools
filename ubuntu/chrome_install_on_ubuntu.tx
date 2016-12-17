@@ -1,0 +1,23 @@
+一、通过直接下载安装Google Chrome浏览器deb包。
+
+打开Ubuntu终端，以下为32位版本，使用下面的命令。
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+
+Ubuntu 14.04 LTS下安装Google Chrome浏览器
+
+以下为64位版本，使用下面的命令。
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+下载好后
+
+32 位安装命令:
+
+sudo dpkg -i google-chrome-stable_current_i386.deb
+
+Ubuntu 14.04 LTS下安装Google Chrome浏览器
+
+64 位安装命令:
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb 

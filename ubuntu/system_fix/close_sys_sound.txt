@@ -1,0 +1,5 @@
+终端中打
+sudo gsettings set com.canonical.unity-greeter play-ready-sound false
+想要开启声音：
+gsettings set com.canonical.unity-greeter play-ready-sound true
+

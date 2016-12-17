@@ -1,0 +1,9 @@
+
+org-mode入门教程
+http://www.fuzihao.org/blog/2015/02/19/org-mode%E6%95%99%E7%A8%8B/
+
+Emacs org-mode基础用法
+http://www.360doc.com/content/14/1219/13/20545288_434126794.shtml
+
+emacs org-mode循序渐进
+https://www.zhihu.com/question/26964808?sort=created

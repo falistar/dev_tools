@@ -1,0 +1,4 @@
+在搜狗官网下载输入法并安装，
+	http://pinyin.sogou.com/linux/?r=pinyin
+	
+运行fcitx-configtool删除默认的中文输入法，然后重新登录系统生效

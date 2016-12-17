@@ -1,0 +1,39 @@
+1. Open a terminal. Type:
+
+gksu gedit
+
+Ads by Google
+
+2. Paste the following to the text file.
+
+pointer = 1 2 3 5 4 6 7 8 9 10 11 12
+
+You can see that the sequence 4 and 5 are switched. This represents the switch in the vertical scrolling direction. If you want the horizontal scrolling to switch as well, switch the 6 and 7.
+
+3. Save the file with the name ‘.Xmodmap’ (without the quote, but with the dot in front) in your Home folder.
+
+4. Close the file and terminal.
+
+5. Log out and log in again. Your mouse scrolling direction should change now.
+
+To revert the setting, simply delete/remove the .Xmodmap file.
+
+If you are using KDE (Kubuntu), the tweak is slightly different.
+
+1. Go to “System Setting -> Input Devices -> Mouse”.
+
+2. Check the box “Reverse Scrolling Direction”. Click Apply.
+
+naturalscrolling-kde
+
+That’s it.
+
+Note: There is another app call naturalscrolling. I have tried it in Ubuntu Oneiric beta and it doesn’t work. If you are keen to try it out, here is how you can install it:
+
+Open a terminal and type:
+
+sudo add-apt-repository ppa:zedtux/naturalscrolling
+sudo apt-get update
+sudo apt-get install naturalscrolling
+
+If everything goes well for you, you should see an appindicator where you can tick to change the mouse scrolling direction. Let me know how it works for you.

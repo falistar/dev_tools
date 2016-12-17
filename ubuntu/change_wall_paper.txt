@@ -1,0 +1,10 @@
+ubunu下用命令设置壁纸：
+
+    gsettings set org.gnome.desktop.background picture-uri "file:【fileName】"
+    eg:
+        gsettings set org.gnome.desktop.background picture-uri "file:/home/geekgao/图片/美国队长2.jpg"
+        gsettings set org.gnome.desktop.background picture-uri "file:/home/liu/图片/Wallpapers/wallhaven-374083.jpg"
+    note:
+        can create a shell file to excute this
+
+在此奉劝大家搜索技术问题最好用谷歌，这个命令我好几天前就想用，但是在百度搜不到啊，结果刚去谷歌试了下，第一个就是我想要的，谷歌大法好啊！

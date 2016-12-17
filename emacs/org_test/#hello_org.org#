@@ -1,0 +1,57 @@
+# +TITLE: my org first
+
+* top head
+
+** sec head
+
+*** DONE 3rd head
+    some text
+
+*** 3rd head
+    more text
+    1. aaa
+    2. bbb
+       + hhhh
+       + [X] gggg
+       + iiii
+    3. ccc
+    4. ddd
+       * ggg
+       * [X] cccc
+       * hhh
+       * vvvk
+    5. fffl
+
+*** TODO tbd 
+    aaa
+
+** sec head
+
+** TODO [b
+
+   
+* another top head
+  
+The Org homepage[fn:1] now looks a lot better than it used to.better than.
+[fn:1] The link is: http://orgmode.org
+
+| Name   | Phone | Age | sex |
+|--------+-------+-----+-----|
+| Petter |   138 |  13 | 1   |
+| Anna   |  1377 |  22 | 0   |
+
+
+[[http://bing.com][bing]]
+
+
+
+
+ema
+
+
+
+
+
+#+FILETAGS: :Peter:Boss:Secret:
+
+* dfsdf								:Boss:Secret:

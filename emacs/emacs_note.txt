@@ -1,0 +1,14 @@
+.安装，配置
+
+.自带文档，入门教程
+
+.org-mode
+    export pdf ok after run "sudo apt install texlive-full"
+
+.org-mode + artist-mode + ditaa是一个在emacs中使用图片比较好的方法
+    适合画框图，流程图,如果想自由绘制，需要使用：
+    graphviz or python + matlab lib
+    扩展阅读：picture-mode
+    
+.emacs 探索
+    emacs可以直接打开PDF阅读，很方便，惊喜

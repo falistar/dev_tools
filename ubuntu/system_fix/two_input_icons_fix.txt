@@ -1,0 +1,2 @@
+ubuntu16.04安装搜狗输入法后出现两个图标和两个输入框，让人很困扰，如何让它只出现一个呢？只要卸载掉fcitx-ui-qimpanel就行了
+卸载命令如下：sudo apt-get purge fcitx-ui-qimpanel

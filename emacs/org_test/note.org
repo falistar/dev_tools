@@ -1,0 +1,20 @@
+# Insert note for this entry.
+# Finish with C-c C-c, or cancel with C-c C-k.
+
+dsfsdsdsdffsd
+
+* this
+
+* hahahh
+
+** fsdfsdfd
+
+** ffffff
+
+*** ggggg
+
+*** hhhhh
+
+*** ffffff
+
+*** TODO 

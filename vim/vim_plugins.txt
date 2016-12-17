@@ -1,0 +1,41 @@
+Vim十大必备插件
+
+所有插件的信息以及下载都可以从：http://vim-scripts.org/vim/scripts.html 获取
+
+    Taglist
+
+    taglist是一个用于显示定位程序中各种符号的插件，例如宏定义、变量名、结构名、函数名这些东西 我们将其称之为符号(symbols)，而在taglist中将其称之为tag。显然，要想将程序文件中的tag显示出来，需要事先了解全部tag的信 息，并将其保存在一个文件中，然后去解析对应的tag文件。taglist做的仅仅是将tag文件中的内容解析完后显示在Vim上而已。tag扫描以及数 据文件的生成则是由ctags(Exuberant Ctags)这一工具完成的，所以在使用taglist之前，你的电脑需要装有ctags。
+    NERDTree
+
+    NERDTree是一个用于浏览文件系统的树形资源管理外挂,它可以让你像使用Windows档案总管一样在VIM中浏览文件系统并且打开文件或目录。
+    WinManager
+
+    我们上面介绍了用于文件浏览的nerdtree以及浏览程序符号的taglist，这两个插件都会以窗口的形式出现在Vim的窗口中，那么如何合理的安排它们，这就是winmanager的作用。
+
+    这里，我们利用winmanager将nerdtree和taglist放到同一个”侧边栏”中，nerdtree在上方，taglist在下方，效果如下图所示：
+
+    Vim十大必备插件
+    NerdCommenter
+
+    如果你是一个酷爱写注释的程序员的话，那么你一定要用一下nerdcommenter，即便你不热衷于写注释，你也应该关注下nerdcommenter这款插件。
+
+    nerdcommenter和Vim的Visual模式结合可以快速的注释/取消注释多行代码，同时在行尾追加注释并自动进入Insert模式可以方便的进行行内注释。
+    Neocomplete
+
+    用过了很多补全插件，最后还是选择了neocomplete。neocomplete.vim是来自shougo的作品，该插件维护了当前buffer的一个关键词列表，从而提供强大的关键词补全功能。
+    Molokai
+
+    配色使用的是我钟爱的monokai，但是换了深色配色，使用了一个molokai配色插件。之所以叫molokai，因为这个配色是monokai的修改版，将monokai的背景色改为了深色。我想要一个深色背景的molokai.正和我意啊。
+    Vim-airline
+
+    接下来介绍一下个人非常喜欢的一个插件vim-airline。这是一款状态栏增强插件，可以让你的Vim状态栏非常的美观，同时包括了buffer显示条扩展smart tab line以及集成了一些插件。Vim十大必备插件
+    Ctrlp
+
+    ctrlp是一款相当棒的插件，主要的功能是对文件进行模糊的查找，如果你的project目录结构复杂，或者你正在阅读一个较大的项目的话，那么ctrlp可以帮你快速的定位到你想要文件而不必在终端不断的cd、ls。
+    EasyGrep
+
+    Vim是内置支持Grep的，Vim7.3更是更新了Grep的引擎，在Vim内Grep的速度更快了。但是Vim中的Grep一样不容易掌握，还好有很多简化Grep的插件可以用，包括grep的变种ack，这其中使用起来最方便的，最人性化的要数EasyGrep了。
+    Vundle
+
+    之前使用过tpope的pathogen， 使用git submodule和pathogen, 管理插件已经大大简化。而今天介绍的vundle, 更是把git操作整合进去，用户需要做的只是去Github上找到自己想要的插件的名字，安装，更新和卸载都可有vundle来完成了。虽然去发现一个好 的插件仍然是一个上下求索的过程，但是用户已经可以从安装配置的繁琐过程解脱了。
+

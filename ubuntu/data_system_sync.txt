@@ -1,0 +1,11 @@
+
+完全同步两个目录,以本地为主.
+    rsync -rvu --delete src_dir dest_dir
+
+system back , restore, clone:
+    dd / scp / rsync / dump+restore
+
+https://help.ubuntu.com/community/DataRecovery
+http://wiki.ubuntu.com.cn/Ubuntu%E5%A4%87%E4%BB%BD%E4%B8%8E%E8%BF%98%E5%8E%9F
+https://www.codepunker.com/blog/how-to-backup-ubuntu-and-restore-it-using-dd
+http://www.thegeekstuff.com/2010/10/dd-command-examples

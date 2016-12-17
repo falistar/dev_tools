@@ -1,0 +1,21 @@
+代码编辑工具
+    .vim    写代码的最佳编辑器
+        提高，深入          10%
+        联机文档
+        已安装的插件的文档
+
+    .emacs  功能丰富的编辑器
+        自带文档，入门教程  10%
+        org-mode            10%
+        安装，配置          10%
+
+开发
+    .ubuntu开发
+        http://developer.ubuntu.com/en/
+
+    .Android
+
+    .iOS
+
+其他工具
+    善用佳软, 介绍好工具的网站: https://xbeta.info/

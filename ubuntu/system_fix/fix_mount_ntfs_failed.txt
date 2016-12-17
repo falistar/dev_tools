@@ -1,0 +1,37 @@
+ windows8 8.1 安装完 ubuntu无法挂载 ntfs分区 解决方法 [此博文包含图片] (2013-09-14 17:20:48)
+转载
+▼
+标签： windows8 it 分区挂载 	分类： Linux
+
+windows8 8.1 安装完 ubuntu无法挂载 ntfs分区 解决方法:
+
+最近安装完发现8.1系统后,ubuntu无法加载以前的ntfs分区了,特别是我添加到了/etc/fstab里面了 导致开机界面就提示加载失败，只能手动跳过 
+
+之后 查询了一下，是由于windows8 快速关机 缓存cache 的原因，强行加载会损坏数据，所以linux直接拒绝访问
+
+解决方法特此分享： 进入window系统 设置------控制面板-----电源选项--------左侧项目栏“选择电源按钮的功能”或者“选择关闭盖子的功能”-----“更改当前 不可用的设置”来 把下面的启动快速启动 去掉选择
+
+image
+
+PS：
+
+微软为Windows 8加入了快速启动功能，这样当你在Windows 8中关闭计算机时，默认情况下会执行混合关机。混合关机就是Windows 8的启动速度会比Windows 7及以前版本的Windows快很多。
+
+不同于冷启动，Windows 8会将需要加载的系统内核和驱动程序保存到磁盘休眠文件，启动Windows 8时自动从休眠文件加载，使得启动速度要快很多。
+
+ 
+在之前版本的Windows中，休眠文件包括内核、驱动程序和应用数据。而在Windows 8中，休眠文件更小，加载更快。
+
+当window使用了快速重启的功能的时候，可能会在 Win8 下次启动时清空在其他系统下往 NTFS 分区写入的文件。为了阻止这种情况发生，Fedora 18 中搭载的 ntfs-3g 在检测到“快速重启”启用时将拒绝挂载 NTFS 分区。所以会出现The disk contains an unclean file system (0, 0).
+
+Metadata kept in Windows cache, refused to mount.
+
+Failed to mount '/dev/sda6': Operation not permitted
+
+The NTFS partition is in an unsafe state. Please resume and shutdown
+
+Windows fully (no hibernation or fast restarting), or mount the volume
+
+read-only with the 'ro' mount option.
+这段文字。
+如果想正常挂载NTFS请关闭快速重启功能吧。

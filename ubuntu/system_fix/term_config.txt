@@ -1,0 +1,5 @@
+.bashrc，真正修改到就一行代码：
+
+找到： 62     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W\$ '
+
+修改将小写w改为大写W保存

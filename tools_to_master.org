@@ -1,0 +1,34 @@
+#+TITLE: Tools To Be Mastered
+
+#+STARTUP: showall
+
+
+
+* 代码编辑工具
+
+** vim,写代码的最佳编辑器
+   1. 联机文档
+   2. 已安装插件的文档
+
+** emacs, 功能丰富的编辑器
+   1. 安装，配置
+   2. 自带文档，入门教程
+   3. org-mode
+      org top > document structure > structure editing
+
+* 开发平台
+
+** ubuntu
+   [[http://developer.ubuntu.com/en][ubuntu开发文档]]
+
+
+** Android
+
+** iOS
+   dddd([1])
+
+
+* 其他工具
+  介绍好工具的网站: [[https://xbeta.info/][善用佳软]]
+
+[1] dddddd

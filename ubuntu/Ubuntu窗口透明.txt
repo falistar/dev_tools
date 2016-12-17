@@ -1,0 +1,8 @@
+安装ccsm:
+sudo apt-get install compizconfig-settings-manager compiz-plugins
+运行ccsm启用"不透明度、亮度与饱和度"插件，然后就可以通过Alt+鼠标滚轮调整窗口透明度。
+这个方式设置的透明是临时的，如果需要固定，选择ccsm中透明度设置里头新建一个，例如选择窗口类，抓取Gvim的实例
+窗口，会获得一个窗口类为Gvim的key，设置value为默认的９０就行，觉得透明度不够可以再减小点
+
+深入设置ccsm可以参考: http://www.linuxdiyf.com/linux/23136.html
+

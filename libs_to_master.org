@@ -1,0 +1,15 @@
+* dev libs to be mastered
+
+** OpenGLES
+
+** Irrlicht
+
+** artoolkit
+
+** Vuforia
+
+** opencv
+
+** ffmpeg
+
+* ref_books
